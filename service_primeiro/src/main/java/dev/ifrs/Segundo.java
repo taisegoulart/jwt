@@ -11,7 +11,7 @@ import jakarta.ws.rs.core.MediaType;
 
 
 
-@RegisterRestClient(baseUri = "http://localhost:8082/segundo")
+@RegisterRestClient(baseUri = "http://localhost:8445/segundo")
 @AccessToken // isso aqui está dizendo que quando chegar uma requisição manda outro pro outro serviço
 
 public interface Segundo { //aqui a interface faz apenas a conexão
